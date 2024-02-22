@@ -1,0 +1,223 @@
+html {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 62.5%; /* 16px * 62.5 = 10px = 1rem */
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  font: 1.6rem;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  background-color: #0c0c0c;
+}
+
+main {
+  margin: 0 auto;
+  width: 102rem;
+  background-color: #fff;
+}
+
+.first-section {
+  position: relative;
+  width: 100%;
+}
+.first-section-button > img {
+  position: absolute;
+  top: 38rem;
+  left: 24rem;
+  animation-name: moveScroll;
+  animation-duration: 0.7s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes moveScroll {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-0.5rem, 0.7rem);
+  }
+}
+
+.welcome-section {
+  position: relative;
+  top: -8rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome-section-box {
+  padding-right: 2.3rem;
+  width: 40rem;
+  text-align: right;
+}
+.welcome-section-box-title {
+  padding: 1.8rem 0;
+  font-family: 'myriad pro', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #e4007f;
+}
+.welcome-section-box-desc {
+  font-family: 'Avenir Next Regular', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.9rem;
+  color: #464545;
+}
+
+.enjoy-section {
+  position: relative;
+  top: -19rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.enjoy-section-box {
+  padding-left: 2.3rem;
+  width: 40rem;
+  text-align: left;
+}
+.enjoy-section-box-title {
+  padding: 1.8rem 0;
+  font-family: 'myriad pro', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #e4007f;
+}
+.enjoy-section-box-desc {
+  font-family: 'Avenir Next Regular', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.9rem;
+  color: #464545;
+}
+
+.menu-section {
+  position: relative;
+  width: 100%;
+  height: 54.2rem;
+  background-image: url('/sushigo-langley/img/04-4.jpg');
+}
+.menu-section-title {
+  padding-top: 3.8rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  font-family: 'Apple Chancery', sans-serif;
+  font-weight: 400;
+  font-size : 4.8rem;
+  color: #ffffff;
+  text-align: center;
+}
+.menu-section-title > span {
+  font-size: 4.8rem;
+  color : #e4007f;
+}
+.menu-section-desc {
+  width: 100%;
+  font-family: 'Chakra Petch Light', sans-serif;
+  font-weight: 400;
+  font-size : 1.4rem;
+  color: #ffffff;
+  text-align: center;
+}
+.menu-section-box {
+  position: absolute;
+  bottom: 8.4rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 3.6rem;
+}
+.menu-section-item {
+  font-family: 'Baskerville';
+  font-weight: 400;
+  font-size: 3rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.bottom-section {
+  padding: 2.8rem 2.8rem 20rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-section-links {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bottom-section-contect {
+  font-family: 'Avenir Next';
+  font-size: 1.7rem;
+  color: #000000;
+}
+.bottom-section-contect-address {
+  padding-left: 1rem;
+  height: 3rem;
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+.bottom-section-contect-phone {
+  padding-left: 1rem;
+  height: 3rem;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.bottom-section-sns-title {
+  padding-left: 1rem;
+  font-family: 'Avenir Next';
+  font-weight: 600;
+  font-size: 2rem;
+  color : #e4007f;
+}
+.bottom-section-sns-facebook {
+  cursor: pointer;
+}
+.bottom-section-map {
+  padding-top: 1.1rem;
+  width: 35rem;
+}
+.bottom-section-map > iframe {
+  border-radius: 1rem;
+}
+.bottom-section-business-hours {
+  padding-top: 1.1rem;
+  width: 23rem;
+}
+.bottom-section-business-hours > div {
+  height: 3.9rem;
+  font-family: 'Avenir Next', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #e4007f;
+}
+.bottom-section-business-hours > table > tbody > tr {
+  height: 3rem;
+  font-family: 'Avenir Next', sans-serif;
+}
+.bottom-section-business-hours > table > tbody > tr > td:first-child {
+  width: 6rem;
+  font-family: 'Avenir Next', sans-serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+  color: #000;
+}
+.bottom-section-business-hours > table > tbody > tr > td:last-child {
+  font-family: 'Avenir Next', sans-serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+  color: #000;
+}
+
