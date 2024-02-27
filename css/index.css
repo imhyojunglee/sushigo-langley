@@ -5,6 +5,7 @@ html {
 }
 body {
   margin: 0;
+  width: 100%;
   min-height: 100vh;
   font: 1.6rem;
   -webkit-user-select:none;
@@ -17,6 +18,7 @@ body {
 
 main {
   margin: 0 auto;
+  width: 100%;
   max-width: 152rem;
   background-color: #fff;
 }
@@ -42,13 +44,14 @@ main {
   background-image: url('/sushigo-langley/img/hero_bg_desktop.png');
   background-repeat: no-repeat;
   background-position: center top;
+  background-size: cover;
 }
 .hero-section-button {
+  width: 100%;
   position: absolute;
   top: 56%;
-  right: -187%;
+  right: 10%;
   bottom: 0;
-  left: -213%;
   text-align: center;
   animation-name: move-hero-button;
   animation-duration: 0.7s;
@@ -57,11 +60,10 @@ main {
   animation-direction: alternate;
 }
 .hero-section-button-mobile {
+  width: 100%;
   position: absolute;
   top: 57%;
-  right: -194%;
   bottom: 0;
-  left: -206%;
   text-align: center;
   animation-name: move-hero-button;
   animation-duration: 0.7s;
@@ -79,7 +81,7 @@ main {
 }
 @media (max-width: 850px) {
   .hero-section {
-    height: 45rem;
+    height: 47rem;
     background-image: url('/sushigo-langley/img/hero_bg_mobile.png');
   }
   .hero-section-button {
