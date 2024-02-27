@@ -8,10 +8,10 @@ body {
   width: 100%;
   min-height: 100vh;
   font: 1.6rem;
-  -webkit-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  user-select:none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   background-color: #fff;
   overflow-x: hidden;
 }
@@ -370,7 +370,7 @@ main {
 @media (max-width: 850px) {
   .bottom-section {
     padding: 6rem 0;
-    min-width: 56rem;
+    width: 56rem;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
