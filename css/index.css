@@ -83,6 +83,7 @@ main {
   .hero-section {
     height: 47rem;
     background-image: url('/sushigo-langley/img/hero_bg_mobile.png');
+    background-size: cover;
   }
   .hero-section-button {
     display: none;
