@@ -24,9 +24,6 @@ main {
 }
 
 @media (max-width: 850px) {
-  html {
-    zoom: revert-layer;
-  }
   main {
     width: 56rem;
   }
