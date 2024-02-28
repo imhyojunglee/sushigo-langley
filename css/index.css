@@ -44,7 +44,7 @@ main {
   background-image: url('/sushigo-langley/img/hero_bg_desktop.png');
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: cover;
+  background-size: auto;
 }
 .hero-section-button {
   width: 100%;
