@@ -12,8 +12,15 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: #000;
+
   overflow-x: hidden;
+}
+
+.main-wrap-white {
+  background-color: #fff;
+}
+.main-wrap-block {
+  background-color: #000;
 }
 
 main {
