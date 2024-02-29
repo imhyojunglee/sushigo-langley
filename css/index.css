@@ -12,19 +12,13 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-
   overflow-x: hidden;
 }
-
 .main-wrap-white {
   background-color: #fff;
 }
 .main-wrap-black {
   background-color: #000;
-}
-.main-wrap-left {
-  position: absolute; width: 20%; height: 55.9rem;
-  background-color: #1d1d1d;
 }
 
 main {
@@ -51,6 +45,12 @@ main {
 /******************/
 /* hero-section   */
 /******************/
+.hero-section-left-background {
+  position: absolute;
+  width: 20%;
+  height: 55.9rem;
+  background-color: #1d1d1d;
+}
 .hero-section {
   position: relative;
   width: 100%;
