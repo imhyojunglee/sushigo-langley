@@ -19,7 +19,11 @@ body {
 .main-wrap-white {
   background-color: #fff;
 }
-.main-wrap-block {
+.main-wrap-black {
+  background-color: #000;
+}
+.main-wrap-left {
+  position: absolute; width: 20%; height: 55.9rem;
   background-color: #000;
 }
 
@@ -33,6 +37,9 @@ main {
 @media (max-width: 850px) {
   main {
     width: 56rem;
+  }
+  .main-wrap-left{
+    display: none;
   }
 }
 @media (min-width: 850px) {
