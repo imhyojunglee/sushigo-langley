@@ -27,13 +27,9 @@ main {
   max-width: 152rem;
   background-color: #fff;
 }
-
 @media (max-width: 850px) {
   main {
     width: 56rem;
-  }
-  .main-wrap-left{
-    display: none;
   }
 }
 @media (min-width: 850px) {
@@ -94,6 +90,9 @@ main {
   }
 }
 @media (max-width: 850px) {
+  .hero-section-left-background {
+    display: none;
+  }
   .hero-section {
     height: 47rem;
     background-image: url('/sushigo-langley/img/hero_bg_mobile.png');
